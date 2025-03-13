@@ -50,11 +50,11 @@ const HeroSection = () => {
                 </div>
 
                 {/* Navigation */}
-                <nav className="absolute items-center top-6 right-8 flex gap-6 text-white text-lg z-20">
+                <nav className="absolute items-center top-6 right-8 flex flex-wrap p-5 lg:flex-wrap lg:p-0 gap-6 text-black font-medium lg:text-white text-lg z-20">
                     <a href="#about" className="hover:text-gray-300">About Me</a>
                     <a href="#skills" className="hover:text-gray-300">Skills</a>
                     <a href="https://drive.google.com/file/d/1UzDG-d4mqaEwmBm2uzRslfPtGbMDRWjE/view?usp=drive_link" className="hover:text-gray-300">Resume</a>
-                    <a href='#contact' className="px-4 py-2 bg-white text-black rounded-full shadow-md">
+                    <a href='#contact' className="px-4 py-2 text-nowrap bg-white text-black rounded-full shadow-md">
                         Contact Me
                     </a>
                 </nav>
